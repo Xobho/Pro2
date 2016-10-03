@@ -10,7 +10,7 @@ namespace try3.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = " this  to -start your ASP.NET MVC application.";
+            ViewBag.Message = " this  tion.";
 
             return View();
         }
