@@ -41,7 +41,7 @@ namespace try3.Controllers
             }
 
             // If we got this far, something failed, redisplay form
-            ModelState.AddModelError("", "The user name or hbnv provided is incorrect.");
+            ModelState.AddModelError("", "The user name or  provided is incorrect.");
             return View(model);
         }
 
